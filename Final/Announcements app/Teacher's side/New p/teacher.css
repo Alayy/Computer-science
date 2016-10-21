@@ -1,0 +1,174 @@
+/* 
+NPSS announcements app
+By: Alay Shah
+Teacher's section css
+*/
+
+/* For the overall body*/
+
+body {
+	background-color: #445872;
+	text-align: center;
+	font-family: Roboto, Helvetica, sans-serif;
+	font-weight: 300;
+}
+.title {
+	text-align: center;
+	content: center;
+	list-style: none;
+	text-decoration: none;
+	font-size: 200%;
+	text-transform: uppercase;
+	background: #f0f0f0;
+	position: relative;
+	left: 31.5%;
+	max-width: 35%;
+}
+
+/*For navbar*/
+
+header nav {
+	text-align: center;
+}
+
+header nav ul {
+	list-style: none;
+	display: inline-block;
+	line-height: 150px;
+}
+
+header nav ul li {
+	padding: 0 55px;
+	display: inline-block;
+}
+
+header nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 600;
+	font-size:20px;
+}
+
+/*for logo*/
+
+header nav ul li#logo a{
+	display: block;
+	width: 165px;
+	height: 154px;
+	background: url('Pictures/logo.png') center center no-repeat;
+	text-indent: -9999px;
+    text-align: center;
+}
+
+header nav ul li#logo a:hover {
+	padding: 0;
+	background: url('Pictures/logo-hover.png') center center no-repeat;
+    text-align: center;
+}
+
+
+/* For login */
+
+#login{
+  width:28%;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  left: 36.5%;
+  text-align: center;
+  align-content: center;
+}
+
+#word{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+#login h1{
+  background:#3399cc;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+form{
+  background:#3399cc;
+  padding:6% 4%;
+  border-radius: 10px;
+}
+
+input[type="text"],input[type="password"]{
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-size:95%;
+  color:#1A3964;
+}
+
+input[type="submit"]{
+  width:100%;
+  background:#3399cc;
+  border:0;
+  padding:4%;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+}
+
+input[type="submit"]:hover{
+  background:#2288bb;
+}
+
+#omg {
+    
+}
+
+/* For footer */
+
+footer.main {
+	background-color: #3399cc;
+	padding: 10px 0;
+}
+footer.main a:hover {
+	color: #f2f3ee;
+}
+footer.main ul li {
+	text-decoration: none;
+	list-style: none;
+	display: inline-block;
+	padding: 0 40px;
+	text-align: center;
+}
+footer.main ul li a {
+	color: #000;
+}
+footer #author p {
+	text-align: center;
+}
+
+/* For view boxes */
+#view {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/*For edit boxes */
+
+#boxes {
+   padding: 0 120px;
+   text-align: center;
+}
+
+
+
+
+
+
+
+

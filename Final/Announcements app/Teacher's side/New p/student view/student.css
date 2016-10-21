@@ -1,0 +1,46 @@
+/* 
+NPSS announcements app
+By: Alay Shah
+Student's section css
+*/
+
+body {
+	background-color: #b1eaf5;
+	text-align: center;
+	font-family: Roboto, Helvetica, sans-serif;
+	font-weight: 300;
+}
+.title {
+	text-align: center;
+	content: center;
+	list-style: none;
+	text-decoration: none;
+	font-size: 200%;
+	text-transform: uppercase;
+	background: #f0f0f0;
+	position: relative;
+	left: 31.5%;
+	max-width: 35%;
+}
+
+/*For navbar*/
+
+header nav {
+	text-align: center;
+}
+
+header nav ul {
+	list-style: none;
+	display: inline-block;
+	line-height: 150px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+header nav ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 600;
+	font-size:20px;
+}
